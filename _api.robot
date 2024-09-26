@@ -9,7 +9,7 @@ Library     RequestsLibrary
 #install JAVA --> 'java'                                = in cmd
 #start API    --> 'java -jar doppio_api.jar'            = in cmd
 
-TC1 verify taht username and password invalid
+TC1 verify that username and password invalid
     Create Session      Login Session       http://localhost:8082
     ${requestbody}      CreateDictionary    username=doppio1        password=weBuildBestQa
     ${resp}             POST On Session     Login Session           /login          
