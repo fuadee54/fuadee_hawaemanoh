@@ -4,7 +4,7 @@ Library     RequestsLibrary
 *** Variables ***
 
 *** Keywords ***
-
+ 
 *** Test Cases ***
 #install JAVA --> 'java'                                = in cmd
 #start API    --> 'java -jar doppio_api.jar'            = in cmd
